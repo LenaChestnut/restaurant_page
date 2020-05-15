@@ -13,3 +13,7 @@ If you run `npx webpack --watch`, you will not have to rerun webpack every time 
 
 ### .gitignore
 Since node_modules folder can get very big, it's added to .gitignore file.
+
+## Assets
+### Images
+* [Cat photo by @fotografierende](https://images.unsplash.com/photo-1581246152826-4049ee0e666c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80)
