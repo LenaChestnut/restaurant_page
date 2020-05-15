@@ -8,5 +8,8 @@ This project uses webpack and npm.
 
 [Webpack setup tutorial](https://webpack.js.org/guides/getting-started/)
 
+### Webpack - updates
+If you run `npx webpack --watch`, you will not have to rerun webpack every time you make a change.
+
 ### .gitignore
 Since node_modules folder can get very big, it's added to .gitignore file.
