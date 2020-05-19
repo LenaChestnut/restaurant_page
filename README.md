@@ -16,4 +16,7 @@ Since node_modules folder can get very big, it's added to .gitignore file.
 
 ## Assets
 ### Images
-* [Cat photo by @fotografierende](https://images.unsplash.com/photo-1581246152826-4049ee0e666c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80)
+* [Green Dragon Inn Photo from Hobbiton tours](https://www.hobbitontours.com/en/discover/the-green-dragon-inn/)
+
+### Fonts
+* [Ringbearer by Pete Klassen](https://www.dafont.com/ringbearer.font)
