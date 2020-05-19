@@ -2,25 +2,20 @@ html, body {
     padding: 0;
     margin: 0;
     min-width: 320px;
+    background-color: #002e2c;
+    color: #f9bc60;
 }
 
 #content {
-    min-width: 500px;
-    max-width: 850px;
     margin: 0 auto;
-    width: 65%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    text-align: center;
 }
 
-img {
-    width: 40%;
-}
-
-#copy {
-    width: 40%;
-    font-size: 1.2rem;
+.bg {
+    margin: 0 auto;
+    width: 94%;
+    height: 70vh;
+    background: 65% top url('https://www.hobbitontours.com/media/1289/hobbiton_2016-sjp-127-2.jpg?anchor=center&mode=crop&width=1920&height=600&rnd=131443426310000000');
 }
 
 nav {
@@ -38,8 +33,12 @@ ul {
     font-size: 1.2rem;
 }
 
+p {
+    font-size: 1.2rem;
+}
+
 @media screen and (max-width: 820px) {
-    #copy, ul {
+    p, ul {
         font-size: 1rem;;
     }
 
@@ -48,19 +47,9 @@ ul {
     }
 }
 
-@media screen and (max-width: 510px) {
+/* @media screen and (max-width: 510px) {
     #content {
         flex-direction: column;
         min-width: 320px;
     }
-
-    #copy {
-        order: 1;
-        text-align: center;
-    }
-
-    img {
-        width: 100%;
-        order: 2;
-    }
-}
+} */
