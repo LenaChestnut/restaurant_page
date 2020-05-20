@@ -91,3 +91,7 @@ li {
 li:hover, li:focus, li:active {
     border-bottom: 1px solid #f9bc60;
 }
+
+.active {
+    border-bottom: 1px solid #f9bc60;
+}
