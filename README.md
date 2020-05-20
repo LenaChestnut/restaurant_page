@@ -14,6 +14,16 @@ If you run `npx webpack --watch`, you will not have to rerun webpack every time 
 ### .gitignore
 Since node_modules folder can get very big, it's added to .gitignore file.
 
+## JS
+### Clearing the page
+In order not to use innerHtml to clear the page, the following method can be used instead:
+
+``` javascript
+        while (content.firstChild) {
+            content.removeChild(content.firstChild);
+        }
+```
+
 ## Assets
 ### Images
 * [Green Dragon Inn Photo from Hobbiton tours](https://www.hobbitontours.com/en/discover/the-green-dragon-inn/)
