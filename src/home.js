@@ -14,6 +14,7 @@ const homePage = function() {
 
     const description = document.createElement('p');
     description.textContent = 'The only brew for the brave and true comes from the Green Dragon';
+    description.classList.add('description');
     content.appendChild(description);
     
 };
