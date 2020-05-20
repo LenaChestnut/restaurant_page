@@ -86,6 +86,7 @@ h2 {
 li {
     cursor: pointer;
     border-bottom: 1px solid transparent;
+    margin: 0 10px;
 }
 
 li:hover, li:focus, li:active {
