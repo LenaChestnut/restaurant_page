@@ -40,7 +40,7 @@ ul {
     margin: 1.5rem;
     display: flex;
     justify-content: space-around;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 p {
@@ -49,10 +49,36 @@ p {
 
 h1 {
     font-family: 'ringbearermedium', Georgia, serif;
+    font-size: 2.5rem;
 }
 
-@media screen and (max-width: 820px) {
-    p, ul {
-        font-size: 1rem;;
-    }
+.grid {
+    display: grid;
+    margin: 50px auto 0;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.card {
+    height: 280px;
+    width: 280px;
+    background-color: white;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+.main {
+    background: center 5% url('https://images.unsplash.com/photo-1576488489579-6967c02c56fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+}
+
+.sides {
+    background: top right url('https://images.unsplash.com/photo-1552845683-cfefc701e423?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
+}
+
+.drinks {
+    background: right / cover url('https://images.unsplash.com/photo-1518176258769-f227c798150e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80');
 }

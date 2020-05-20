@@ -1,6 +1,11 @@
 import homePage from './home';
 
-homePage();
-const menuPage = function() {
-    
-}
+// homePage();
+
+import menuPage from './menu';
+
+// menuPage();
+
+import contactPage from './contacts';
+
+contactPage();
