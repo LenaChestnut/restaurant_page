@@ -45,7 +45,5 @@ import contactPage from './contacts';
                 clearPage();
                 loadPage(target);
             }
-
     });
-
 })();
