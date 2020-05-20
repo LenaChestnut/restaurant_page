@@ -82,3 +82,12 @@ h2 {
 .drinks {
     background: right / cover url('https://images.unsplash.com/photo-1518176258769-f227c798150e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80');
 }
+
+li {
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+}
+
+li:hover, li:focus, li:active {
+    border-bottom: 1px solid #f9bc60;
+}
