@@ -1,6 +1,9 @@
 const homePage = function() {
     const content = document.querySelector("#content");
     
+    const tabLink = document.getElementById('home');
+    tabLink.classList.add('active');
+
     const title = document.createElement('h1');
     title.textContent = 'Green Dragon';
     content.appendChild(title);

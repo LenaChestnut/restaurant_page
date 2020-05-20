@@ -1,11 +1,51 @@
 import homePage from './home';
-
-// homePage();
-
 import menuPage from './menu';
-
-// menuPage();
-
 import contactPage from './contacts';
 
-contactPage();
+(function() {
+    const content = document.querySelector('#content');
+
+    homePage();
+
+    function getEventTarget(e) {
+        e = e || window.event;
+        return e.target || e.srcElement;
+    }
+
+    function clearPage() {
+        while (content.firstChild) {
+            content.removeChild(content.firstChild);
+        }
+    }
+
+    function loadPage(tab) {
+
+        const navLinks = Array.from(document.querySelectorAll('li'));
+
+        navLinks.forEach((link) => {
+            link.classList.remove('active');
+        });
+
+        if (tab.textContent === "Home") {
+            homePage();
+        } else if (tab.textContent === "Menu") {
+            menuPage();
+        } else if (tab.textContent === "Contacts") {
+            contactPage();
+        }
+    }
+
+    const nav = document.querySelector('nav');
+    nav.addEventListener('click', (e) => {
+        const target = getEventTarget(e);
+
+        if (target.textContent === "Home" ||
+            target.textContent === "Menu" ||
+            target.textContent === "Contacts") {
+                clearPage();
+                loadPage(target);
+            }
+
+    });
+
+})();

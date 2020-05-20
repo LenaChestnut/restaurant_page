@@ -1,6 +1,9 @@
 const contactPage = function() {
     const content = document.querySelector("#content");
 
+    const tabLink = document.getElementById('contacts');
+    tabLink.classList.add('active');
+    
     const title = document.createElement('h1');
     title.textContent = 'Green Dragon';
     content.appendChild(title);

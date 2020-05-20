@@ -1,6 +1,9 @@
 const menuPage = function() {
     const content = document.querySelector("#content");
     
+    const tabLink = document.getElementById('menu');
+    tabLink.classList.add('active');
+
     const title = document.createElement('h1');
     title.textContent = 'Green Dragon';
     content.appendChild(title);
